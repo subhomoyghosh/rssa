@@ -2,7 +2,7 @@ useDynLib(Rssa, .registration = TRUE)
 
 import(lattice)
 import(svd)
-import(forecast)
+#import(forecast)
 
 export(clone,
        decompose,
